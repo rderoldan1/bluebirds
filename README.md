@@ -22,3 +22,23 @@ Check your postgresql credentials and update `config/database.yml`if needed
     
     $ bundle install
     $ bundle exec foreman start
+
+
+### Endpoints
+
+* Create 
+    
+        Method: POST 
+        Path: /indices
+        Body: { index: {url: 'http:google.com' } }
+        
+* List of indices
+
+        Method: GET
+        Path: /indices
+        
+        
+        
+        
+     
+    
